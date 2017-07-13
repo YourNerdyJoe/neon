@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "neon", "neon\neon.vcxproj", "{5270CB89-CBA6-420B-AE82-271EE70F1E2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		UART Debug|Win32 = UART Debug|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5270CB89-CBA6-420B-AE82-271EE70F1E2B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5270CB89-CBA6-420B-AE82-271EE70F1E2B}.Debug|Win32.Build.0 = Debug|Win32
+		{5270CB89-CBA6-420B-AE82-271EE70F1E2B}.Release|Win32.ActiveCfg = Release|Win32
+		{5270CB89-CBA6-420B-AE82-271EE70F1E2B}.Release|Win32.Build.0 = Release|Win32
+		{5270CB89-CBA6-420B-AE82-271EE70F1E2B}.UART Debug|Win32.ActiveCfg = UART Debug|Win32
+		{5270CB89-CBA6-420B-AE82-271EE70F1E2B}.UART Debug|Win32.Build.0 = UART Debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

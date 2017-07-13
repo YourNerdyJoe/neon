@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\lua wrappers">
+      <UniqueIdentifier>{1407a955-bde7-477f-b8f7-fe52d95d7ed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lua wrappers">
+      <UniqueIdentifier>{3687a3ec-363c-4d45-a3db-e611836f1e0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lut">
+      <UniqueIdentifier>{f6a7a3c6-f2f6-48d5-b3aa-1b48cc67da08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lut">
+      <UniqueIdentifier>{a0f69764-26f7-449c-80ea-84fda3205cdf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tiles.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="light.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lutmath.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tilepalette.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bgtiles.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testlightmap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="interrupt.iwram.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="script.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lua_lutmath.c">
+      <Filter>Source Files\lua wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="divlut.c">
+      <Filter>Source Files\lut</Filter>
+    </ClCompile>
+    <ClCompile Include="sinlut.c">
+      <Filter>Source Files\lut</Filter>
+    </ClCompile>
+    <ClCompile Include="sqrtlut.c">
+      <Filter>Source Files\lut</Filter>
+    </ClCompile>
+    <ClCompile Include="tanlut.c">
+      <Filter>Source Files\lut</Filter>
+    </ClCompile>
+    <ClCompile Include="debug.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lua_light.c">
+      <Filter>Source Files\lua wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="lua_tiles.c">
+      <Filter>Source Files\lua wrappers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gba.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="keypad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="screenmodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="background.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tiles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lutmath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tilepalette.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bgtiles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="blend.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="testlightmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interrupt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="script.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua_lutmath.h">
+      <Filter>Header Files\lua wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="divlut.h">
+      <Filter>Header Files\lut</Filter>
+    </ClInclude>
+    <ClInclude Include="sinlut.h">
+      <Filter>Header Files\lut</Filter>
+    </ClInclude>
+    <ClInclude Include="sqrtlut.h">
+      <Filter>Header Files\lut</Filter>
+    </ClInclude>
+    <ClInclude Include="tanlut.h">
+      <Filter>Header Files\lut</Filter>
+    </ClInclude>
+    <ClInclude Include="debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua_light.h">
+      <Filter>Header Files\lua wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="lua_tiles.h">
+      <Filter>Header Files\lua wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="lua_sprite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+    <None Include="neon.gba" />
+  </ItemGroup>
+</Project>

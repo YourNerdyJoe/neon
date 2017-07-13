@@ -1,0 +1,3 @@
+00F5FF	blue
+33FF33	green
+FF82FF	pink
